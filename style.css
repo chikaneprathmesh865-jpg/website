@@ -1,0 +1,515 @@
+.header {
+    height: 30px;
+    background: #313030;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menubar {
+    height: 60px;
+    border: 1px solid black;
+}
+
+.content {
+    height: 100px;
+    color: white;
+    background-color: #000000a8;
+}
+
+.content1 {
+    height: 380px;
+    background-color: #000000a8;
+}
+
+
+
+.about {
+    height: 420px;
+    background-color: lch(97.06% 2.48 19.31);
+}
+
+.client_section {
+    height: 105px;
+    background-color: hsl(210, 33%, 99%);
+}
+
+.services {
+    height: 150px;
+    background-color: lch(98.06% 2.48 19.31);
+}
+
+.services_section {
+    height: 245px;
+    background-color: lch(98.06% 2.48 19.31);
+}
+
+.services_section2 {
+    height: 400px;
+
+}
+
+.rate {
+    height: 420px;
+    border: 1px solid black;
+    background-image: url('img/client-section/rate_bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    height: 150px;
+    border: 1px solid black;
+}
+
+
+.contact_form {
+    height: 450px;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 250px;
+    border: 1px solid black;
+}
+
+.footer_end {
+    height: 90px;
+    border: 1px solid black;
+}
+
+.header .icon {
+    margin-left: 10px;
+    font-size: medium;
+    color: tomato;
+}
+
+.header .icons {
+    margin-left: 3px;
+    font-size: medium;
+    margin-right: 9px;
+    margin-top: 1;
+}
+
+.right_icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 380px;
+
+}
+
+.left_icon {
+    margin-right: 200px;
+}
+
+.header .info {
+    font-size: medium;
+    text-align: center;
+    padding-left: 6px;
+}
+
+.jumbotron {
+    height: 310px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px 30px 10px 80px;
+    padding: 10px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.jumbotron h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 14px;
+}
+
+.jumbotron .more-btn {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: coral;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.hero_section {
+    position: relative;
+    background-image: url('img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 469px;
+    overflow: hidden;
+}
+
+.box {
+    height: 250px;
+    width: 220px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: #313030c4;
+    float: left;
+    margin-left: 15px;
+
+}
+
+.box .icon {
+    font-size: 30px;
+    color: tomato;
+    margin-left: 45%;
+
+}
+
+.box p {
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0;
+}
+
+.box h5 {
+    text-align: center;
+    margin-left: 7px;
+}
+
+.content-text1 {
+    margin-top: 12px;
+    margin-left: 83px;
+}
+
+.content-text {
+    margin-left: 83px;
+    font-size: 17px;
+}
+
+.about img {
+    height: 394px;
+    width: 450px;
+    padding: 25px 0;
+    margin-left: 40px;
+}
+
+.pulsating-play-btn {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    width: 60px;
+    height: 60px;
+    background: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2s infinite;
+}
+
+.pulsating-play-btn i {
+    color: white;
+    font-size: 30px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 20px rgba(13, 110, 253, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(13, 110, 253, 0);
+    }
+}
+
+.about {
+    padding: 20px;
+    position: relative;
+}
+
+.about h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about>p {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.icon_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.icon_list i {
+    font-size: 28px;
+    color: tomato;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.icon_list h5 {
+    font-size: 5px;
+    font-weight: 600;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.icon_list p {
+    margin: -18px 0 0;
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.icon_list li {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.client_section {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.group {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.item {
+    flex: 0 0 auto;
+    padding: 0 30px;
+}
+
+.item img {
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.item img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* services */
+.services_item {
+    background: #fff;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    position: relative;
+    margin-top: 38px;
+    border-radius: 2px;
+    width: 95%;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+}
+
+.services_item .icon {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+
+    position: absolute;
+    top: -3px;
+    left: 40%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.services_item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.services_item:hover h3 {
+    transform: translateY(-1px);
+    color: tomato;
+}
+
+.services_item:hover .icon {
+    background: transparent;
+    border: 2px solid #ff5722;
+    background-color: white;
+    color: #ff5722;
+    transform: scaleY(1px);
+}
+
+.services h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services_item h3 {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.services p {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+/* services details */
+.services_imgl,
+.services_img {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.services_imgl img {
+    width: 80%;
+    height: 360px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 23px;
+    margin-left: 115px;
+    transition: 0.4s ease;
+}
+
+.services_img img {
+    width: 80%;
+    height: 360px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 23px;
+    margin-left: 10px;
+    transition: 0.4s ease;
+}
+
+
+.services_img:hover img,
+.services_imgl:hover img,
+.services_img:hover h3,
+.services_imgl:hover h3 {
+    transform: scale(1.05);
+    color: #ff5722;
+}
+
+.details {
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    width: 62%;
+    height: 95px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.details h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    transition: 0.3s ease;
+}
+
+.details p {
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+}
+
+/* details right side */
+.details1 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 62%;
+    height: 95px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.details1 h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    transition: 0.3s ease;
+}
+
+.details1 p {
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+}
+
+.corasel_box {
+    height: 370px;
+    width: 100%;
+    border: 1px solid #f32424;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-indicators button {
+    .carousel-indicators button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
